@@ -6,7 +6,7 @@ from pprint import pprint
 my_str = ''
 print()
 path = 'jack.txt'
-data = open(path, 'r')
+data = open(path, 'r', encoding='cp1251')
 for line in data:
     a = data.readline()
     my_str += a
